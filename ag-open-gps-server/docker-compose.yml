@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    agopengpsserver:
+        image: ag-open-gps-server:latest
+        ports:
+           - 5000:80
+        build:
+           context: .
+           dockerfile: Dockerfile
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Production
+            - OKTA__OKTADOMAIN=${OKTA__OKTADOMAIN}
+            - OKTA__CLIENTID=${OKTA__CLIENTID}
+            - OKTA__CLIENTSECRET=${OKTA__CLIENTSECRET}

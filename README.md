@@ -1,5 +1,5 @@
 # AgOpenGPS-Server
-This project is to provide supporting utilities for AgOpenGPS.
+This project is to provide supporting utilities for [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS).
 
 ## Security ##
 
@@ -9,11 +9,27 @@ The setup is pretty easy, this [guide](https://developer.okta.com/quickstart/#/o
 
 You can use environment variables to configure the application once you have the Okta client setup.
 
-```
-    ASPNETCORE_ENVIRONMENT=Development
-    OKTA__OKTADOMAIN=[YOUR_OCTKA_DOMAIN]
-    OKTA__CLIENTID=[YOUR_OCTA_CLIENT_ID]
-    OKTA__CLIENTSECRET=[YOUR_OKTA_CLIENT_SECRET]
-```
+
+|Env Variable|Value  |
+|--|--|
+| OKTA__OKTADOMAIN| [YOUR_OCTA_CLIENT_ID]|
+| OKTA__CLIENTID| [client-secret] |
+| OKTA__CLIENTSECRET| [YOUR_OKTA_CLIENT_SECRET]|
+
+## Running Locally ##
+
+To build and run the application issue the following commands in the ag-open-gps-web project directory from your terminal:
+
+    dotnet build
+
+    dotnet run
+
+To run using docker-compose
+
+    docker-compose up
+
+
+    
+
 
 
