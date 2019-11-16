@@ -28,7 +28,7 @@ To run using docker-compose
 
     docker-compose up
 
-In both cases, navigate to [localhost:5000](localhost:5000)
+In both cases, navigate to [localhost:5000](http://localhost:5000)
 
 
     
