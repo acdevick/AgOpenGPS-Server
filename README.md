@@ -12,8 +12,8 @@ You can use environment variables to configure the application once you have the
 
 |Env Variable|Value  |
 |--|--|
-| OKTA__OKTADOMAIN| [YOUR_OCTA_CLIENT_ID]|
-| OKTA__CLIENTID| [client-secret] |
+| OKTA__OKTADOMAIN| [YOUR_OCTA_DOMAIN]|
+| OKTA__CLIENTID| [YOUR_OCTA_CLIENT_ID] |
 | OKTA__CLIENTSECRET| [YOUR_OKTA_CLIENT_SECRET]|
 
 ## Running Locally ##
@@ -27,6 +27,8 @@ To build and run the application issue the following commands in the ag-open-gps
 To run using docker-compose
 
     docker-compose up
+
+In both cases, navigate to [localhost:5000](localhost:5000)
 
 
     
