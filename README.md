@@ -1,5 +1,5 @@
 # AgOpenGPS-Server
-This project is to provide supporting utilities for AgOpenGPS.
+This project is to provide supporting utilities for [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS).
 
 ## Security ##
 
