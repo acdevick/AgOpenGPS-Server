@@ -38,7 +38,6 @@ namespace ag_open_gps_web
                 });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/build"; });
         }
@@ -91,7 +90,6 @@ namespace ag_open_gps_web
                     spa.UseReactDevelopmentServer(npmScript: "start");
                 }
             });
-            
            
         }
     }
